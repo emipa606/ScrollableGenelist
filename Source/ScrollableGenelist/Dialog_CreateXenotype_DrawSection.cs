@@ -37,8 +37,9 @@ public static class Dialog_CreateXenotype_DrawSection
             Mathf.FloorToInt((containingRect.width - 16f) / (34f + GeneCreationDialogBase.GeneSize.x + 8f + 1f));
         var numberOfRows = Mathf.CeilToInt((float)genes.Count / genesPerRow);
         var totalHeight = numberOfRows * geneHeight;
+        var maxHeight = containingRect.height * ScrollableGenelistMod.instance.Settings.MaxHeight;
 
-        if (totalHeight <= containingRect.height / 2)
+        if (totalHeight <= maxHeight)
         {
             return;
         }
@@ -46,7 +47,7 @@ public static class Dialog_CreateXenotype_DrawSection
         totalHeight += geneHeight;
 
         var innerRect = new Rect(0f, 0, containingRect.width - 16f, totalHeight);
-        var outerRect = new Rect(0f, 0, containingRect.width, containingRect.height / 2);
+        var outerRect = new Rect(0f, 0, containingRect.width, maxHeight);
         Widgets.BeginScrollView(outerRect, ref scrollPosition, innerRect);
         originalRect = containingRect;
         containingRect = innerRect;
