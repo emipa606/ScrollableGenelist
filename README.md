@@ -5,7 +5,7 @@
 When using the xenotype editor, the window showing the selected genes does not have a scroll-bar for some reason. 
 This makes the selected genes-area just continue to grow causing it to push out the rest of the genes when editing xenotypes with a large amount of genes (30) or when just having a lower game resolution.
 
-This mod adds a scroll-bar to the selected genes-area when needed and locks its max height to half the height of the xenotype editor window.
+This mod adds a scroll-bar to the selected genes-area when needed and locks its max height to 50% the height of the xenotype editor window. The max height limit is changeable in the mod-options.
 
 Mod-idea: Diamon
 

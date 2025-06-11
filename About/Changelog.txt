@@ -1,5 +1,8 @@
 # Changelog for ScrollableGenelist
 
+1.5.2 - Last update, added end-of-life message
+
+
 1.5.1 - Added option to select the max-height of the selected genes-window
 Used DeepL to update translations for ChineseSimplified, French, German
 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<HugsLib.UpdateFeatureDef Abstract="true" Name="ScrollableGenelist_UpdateFeatureBase">
+		<modNameReadable>ScrollableGenelist</modNameReadable>
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3453246011</linkUrl>
+	</HugsLib.UpdateFeatureDef>
+	<HugsLib.UpdateFeatureDef ParentName="ScrollableGenelist_UpdateFeatureBase">
+		<defName>ScrollableGenelist_1_5_1</defName>
+		<assemblyVersion>1.5.1</assemblyVersion>
+		<content>The features of this mod has now been included in the game. This mod will not be further updated but will stay up to support the previous versions of the game.</content>
+	</HugsLib.UpdateFeatureDef>
+</Defs>
+
